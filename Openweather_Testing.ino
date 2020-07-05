@@ -76,10 +76,10 @@
 
 
 
-  const char* ssid     = "A_Merovingi / wifike :)";                 // SSID of local network
-  const char* password = "11779933";                    // Password on network
-  String APIKEY = "d9c2e449f50622c8da5f4224280cff43";                                 
-  String CityID = "717771";                                 //Your City ID
+  const char* ssid     = "**********************";                 // SSID of local network
+  const char* password = "**********************";                    // Password on network
+  String APIKEY = "**************************";                                 
+  String CityID = "*********";                                 //Your City ID
 
   
   // @TODO: Make Timezone configurable
@@ -468,7 +468,7 @@ void listDir(fs::FS &fs, const char * dirname, uint8_t levels) {
   tft.setTextColor(TFT_LIGHTGREY, TFT_BLACK);
   tft.setCursor(60,30);
   //tft.print(CityID);
-  tft.print("Mateszalka");
+  tft.print("****************");// Your city name
   delay(1000);
 
  
